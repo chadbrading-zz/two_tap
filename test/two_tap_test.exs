@@ -10,6 +10,12 @@ defmodule TwoTapTest do
 
   test "get TwoTap cart status" do
     {:ok, response} = TwoTap.get_cart_status(@cart_id)
-    assert %{} = response
+    assert %{"sites" => _} = response
+  end
+
+  test "start TwoTap purchase" do
+    purchase_data = %{"52265d0055a0f915c9000002" => %{ "noauthCheckout"=> %{ "email" => "shopper@gmail.com", "shipping_telephone" => "6503941234", "shipping_zip" => "94303", "shipping_state" => "California", "shipping_city" => "Palo Alto", "shipping_address" => "555 Palo Alto Avenue"}}}
+    {:ok, response} = TwoTap.start_purchase(@cart_id, purchase_data)
+    assert %{"purchase_id" => _, "message" => _, "description" => _} = response
   end
 end

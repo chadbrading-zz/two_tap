@@ -22,7 +22,11 @@ defmodule TwoTap do
   def get_cart_status(cart_id) do
     @two_tap_api.get_cart_status(cart_id)
     |> parse_response
+  end
 
+  def start_purchase(cart_id, purchase_data) do
+    @two_tap_api.start_purchase(cart_id, purchase_data)
+    |> parse_response
   end
 
   defp parse_response(response) do
