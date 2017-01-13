@@ -1,0 +1,257 @@
+{
+  "sites": {
+    "52265d0055a0f915c9000002": {
+      "info": {
+        "logo": "https://px.twotap.com/unsafe/https%3A//core.twotap.com/system/sites/logos/5226/5d00/55a0/f915/c900/0002/small/52265d0055a0f915c9000002.png%3F1481700899727",
+        "name": "Kohls",
+        "url": "kohls.com"
+      },
+      "currency_format": "$AMOUNT",
+      "coupon_support": true,
+      "gift_card_support": true,
+      "checkout_support": [
+        "noauthCheckout"
+      ],
+      "shipping_countries_support": [
+        "United States of America",
+        "Japan",
+        "Singapore",
+        "Romania"
+      ],
+      "billing_countries_support": [
+        "United States of America",
+        "Japan",
+        "Singapore",
+        "Romania"
+      ],
+      "shipping_options": {
+        "cheapest": "Default shipping option"
+      },
+      "returns": "<p>Kohl&#39;s is proud to offer our &quot;No Questions Asked - Hassle-Free&quot;&nbsp;<strong>return</strong>&nbsp;policy for all purchases*.</p>\r\n\r\n<ul>\r\n\t<li><strong>There&nbsp;are no time restrictions&nbsp;for&nbsp;returns.</strong></li>\r\n\t<li><strong>No receipt is needed for Kohl&#39;s Charge purchases.</strong>&nbsp;Currently our store Associates can locate Kohl&#39;s Charge purchases up to 12 months after the purchase date, and the credit can be applied to your account.&nbsp;Non-Kohl&#39;s Charge purchases, or purchases made outside the 12 month timeframe qualify for a Kohl&#39;s Merchandise Credit or a corporate-issued refund.</li>\r\n</ul>\r\n",
+      "add_to_cart": {
+        "d1a4386356902a92a0113bfd226b7224": {
+          "title": "Toddler Boy Urban Republic Wool Peacoat",
+          "price": "$32.00",
+          "original_price": "$80.00",
+          "image": "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Charcoal%3Fwid%3D500%26hei%3D500%26op_sharpen%3D1",
+          "alt_images": [
+            "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Charcoal%3Fwid%3D1000%26hei%3D1000%26op_sharpen%3D1",
+            "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_ALT%3Fwid%3D1000%26hei%3D1000%26op_sharpen%3D1"
+          ],
+          "description": "<div><p>He will be the essence of class and style in this boys&apos; Urban Republic wool peacoat.</p><br><p>PRODUCT FEATURES</p>\n<ul><li>Button front</li>\n<li>Long sleeves</li>\n<li>4-pocket </li>\n<li>Button wrist closures</li> </ul>\n<p>FABRIC &amp; CARE</p>\n<ul><li>Polyester, wool</li> <li>Machine wash</li>\n<li>Imported</li>\n</ul></div>",
+          "required_field_names": [
+            "color",
+            "size",
+            "quantity"
+          ],
+          "required_field_values": {
+            "color": [
+              {
+                "alt_images": [
+                  "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Charcoal%3Fwid%3D1000%26hei%3D1000%26op_sharpen%3D1",
+                  "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_ALT%3Fwid%3D1000%26hei%3D1000%26op_sharpen%3D1"
+                ],
+                "dep": {
+                  "size": [
+                    {
+                      "dep": {},
+                      "extra_info": "",
+                      "image": "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Tonal_Plaid%3Fwid%3D500%26hei%3D500%26op_sharpen%3D1",
+                      "price": "$32.00",
+                      "text": "3T",
+                      "value": "3T",
+                      "weight": ""
+                    }
+                  ]
+                },
+                "extra_info": "",
+                "image": "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Tonal_Plaid%3Fwid%3D500%26hei%3D500%26op_sharpen%3D1",
+                "price": "$32.00",
+                "text": "Tonal Plaid",
+                "value": "http://media.kohlsimg.com/is/image/kohls/2670416_Tonal_Plaid_sw?wid=30&hei=30",
+                "weight": ""
+              },
+              {
+                "alt_images": [
+                  "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Charcoal%3Fwid%3D1000%26hei%3D1000%26op_sharpen%3D1",
+                  "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_ALT%3Fwid%3D1000%26hei%3D1000%26op_sharpen%3D1"
+                ],
+                "dep": {
+                  "size": [
+                    {
+                      "dep": {},
+                      "extra_info": "",
+                      "image": "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Charcoal%3Fwid%3D500%26hei%3D500%26op_sharpen%3D1",
+                      "price": "$32.00",
+                      "text": "3T",
+                      "value": "3T",
+                      "weight": ""
+                    }
+                  ]
+                },
+                "extra_info": "",
+                "image": "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Charcoal%3Fwid%3D500%26hei%3D500%26op_sharpen%3D1",
+                "price": "$32.00",
+                "text": "Charcoal",
+                "value": "http://media.kohlsimg.com/is/image/kohls/2670416_Charcoal_sw?wid=30&hei=30",
+                "weight": ""
+              },
+              {
+                "alt_images": [
+                  "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Charcoal%3Fwid%3D1000%26hei%3D1000%26op_sharpen%3D1",
+                  "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_ALT%3Fwid%3D1000%26hei%3D1000%26op_sharpen%3D1"
+                ],
+                "dep": {
+                  "size": [
+                    {
+                      "dep": {},
+                      "extra_info": "",
+                      "image": "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Navy%3Fwid%3D500%26hei%3D500%26op_sharpen%3D1",
+                      "price": "$32.00",
+                      "text": "3T",
+                      "value": "3T",
+                      "weight": ""
+                    }
+                  ]
+                },
+                "extra_info": "",
+                "image": "https://px.twotap.com/unsafe/http%3A//media.kohlsimg.com/is/image/kohls/2670416_Navy%3Fwid%3D500%26hei%3D500%26op_sharpen%3D1",
+                "price": "$32.00",
+                "text": "Navy",
+                "value": "http://media.kohlsimg.com/is/image/kohls/2670416_Navy_sw?wid=30&hei=30",
+                "weight": ""
+              }
+            ]
+          },
+          "url": "http://www.kohls.com/product/prd-2670416/toddler-boy-urban-republic-wool-peacoat-.jsp",
+          "pickup_support": false,
+          "discounted_price": null,
+          "site_categories": [
+            "Apparel & Accessories",
+            "Clothing",
+            "Baby & Toddler Clothing",
+            "Baby & Toddler Outerwear"
+          ],
+          "required_fields": {
+            "color": {
+              "data": [
+                {
+                  "input_name": "SELECT",
+                  "input_type": "select-one"
+                }
+              ]
+            },
+            "size": {
+              "data": [
+                {
+                  "input_name": "SELECT",
+                  "input_type": "select-one"
+                }
+              ]
+            },
+            "quantity": {
+              "data": [
+                {
+                  "input_name": "INPUT",
+                  "input_type": "text"
+                }
+              ]
+            }
+          },
+          "status": "done",
+          "categories": [
+            "Apparel & Accessories~~Clothing~~Baby & Toddler Clothing~~Baby & Toddler Outerwear"
+          ],
+          "category_attributes": null,
+          "weight": "300",
+          "clean_url": "http://www.kohls.com/product/prd-2670416/toddler-boy-urban-republic-wool-peacoat-.jsp",
+          "original_url": "http://www.kohls.com/product/prd-2670416/toddler-boy-urban-republic-wool-peacoat-.jsp"
+        }
+      }
+    },
+    "5232d55055a0f9bc3f000006": {
+      "info": {
+        "logo": "https://px.twotap.com/unsafe/https%3A//core.twotap.com/system/sites/logos/5232/d550/55a0/f9bc/3f00/0006/small/5232d55055a0f9bc3f000006.png%3F1481698437263",
+        "name": "ToysRUs",
+        "url": "toysrus.com"
+      },
+      "currency_format": "$AMOUNT",
+      "coupon_support": true,
+      "gift_card_support": true,
+      "checkout_support": [
+        "noauthCheckout"
+      ],
+      "shipping_countries_support": [
+        "United States of America",
+        "Japan",
+        "Singapore",
+        "Romania"
+      ],
+      "billing_countries_support": [
+        "United States of America",
+        "Japan",
+        "Singapore",
+        "Romania"
+      ],
+      "shipping_options": {
+        "fastest": "1-2 business days",
+        "cheapest": "6-9 business days"
+      },
+      "returns": "<p>Toys&quot;R&quot;Us and Babies&quot;R&quot;Us Return Policy</p>\r\n\r\n<p>Returns are easy at Toys&quot;R&quot;Us and Babies&quot;R&quot;Us, simply return your purchase within 90* days.</p>\r\n\r\n<p><strong><em>* Most items fall under our 90 day return period. For a list of exceptions, please&nbsp;go to [ https://www.toysrus.com/helpdesk/index.jsp?display=returns&amp;subdisplay=returns#exceptions&nbsp;]</em></strong></p>\r\n\r\n<p>Return Policy - In-store and Online</p>\r\n\r\n<p>There are 3 easy ways to return an online order - You can return your order to your local Toys&quot;R&quot;Us or Babies&quot;R&quot;Us location or to our Online Return Centers either by using our Online Pre-Paid Return Label service or on your own. In any of these options, the following should be followed to ensure a timely and complete refund of your return:</p>\r\n\r\n<ul>\r\n\t<li>Online purchases returned within 90 days to our online Returns Center by mail will receive a refund of the price of the item and any applicable taxes will be issued in the original form of payment used to purchase the item except when returning an online item to a store and when returning an item paid for with our Pay in Store payment option.\r\n\t<ul>\r\n\t\t<li>Items must be returned, in new, or like-new condition, and in its original packaging, and with all paperwork including manuals, assembly instructions and your packing slip, as well as all accessories to ensure full credit.</li>\r\n\t\t<li><strong>Please note the following items:</strong>&nbsp;Pre-recorded movies &amp; music; computer &amp; video game software; trading cards; and breast pumps must be returned in its original, sealed and unopened packages along with an in-store receipt or online packing slip for refund. If the packages have been opened, the items may only be exchanged for the identical items or titles.</li>\r\n\t\t<li>Shipping costs will not be refunded unless the item is being returned because it is damaged or defective.&nbsp;</li>\r\n\t\t<li>If the Pay in Store payment option was used, returns made to the Online Returns Center will be refunded using an eGift Card that will be emailed to you within 24 hours of processing. This eGift Card may be exchanged in any Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store for a full refund issued using your original method of payment. Returns made to a Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store will be refunded using the method of payment used at the store when you paid for your order.</li>\r\n\t\t<li>Toysrus.com/Babiesrus.com reserves the right to refuse any returns if they do not meet our return requirements.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>Online purchases can also be returned to any Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store location when returned within 90 days of the purchase date.</li>\r\n\t<li>Go to [ http://www.toysrus.com/helpdesk/index.jsp?display=returns&amp;subdisplay=returns#exceptions&nbsp;] for a list of exceptions to our 90 day policy.</li>\r\n</ul>\r\n\r\n<p>Instructions for Returns to our Online Returns Center</p>\r\n\r\n<p>There are 2 easy ways to return your item(s) to our Online Returns Center! Regardless of which method you use, please follow these simple instructions (It&#39;s important to note that the instructions below must be followed in order to allow us the opportunity to process your return).</p>\r\n\r\n<p>1. Send the item in its original packaging.</p>\r\n\r\n<p>Bundles</p>\r\n\r\n<ul>\r\n\t<li>Items purchased as part of a build your own bundle must be returned as a group. The individual items that make up the bundle cannot be returned individually.</li>\r\n</ul>\r\n\r\n<p>Personal Data</p>\r\n\r\n<ul>\r\n\t<li>Please remove all personal data (e.g., computer or wireless phone data, videotapes), from any returned items. Toysrus.com/Babiesrus.com is not responsible for any personal data left on or in these items.</li>\r\n</ul>\r\n\r\n<p>Promotional Items</p>\r\n\r\n<ul>\r\n\t<li>Any product that is returned without a promotional item(s) that was included with the original transaction (e.g., buy a TV, get a free DVD player; buy a TV, get a free gift card; or buy a TV, get a DVD player half off) will have the value of the promotional item deducted from the refund amount.</li>\r\n</ul>\r\n\r\n<p>2. Pack the item carefully so that it will not be damaged during the shipping process. No credit will be issued for items missing components, parts, original box, packaging material, contents, accessories and/or manuals (i.e., any product not in &quot;like new&quot; condition).</p>\r\n\r\n<p>3. Include your original packing slip. We will not be able to process a return for any shipment received without a packing slip.&nbsp;<br />\r\n<br />\r\nIMPORTANT: You must check the reason for your return from the list provided on your packing slip in order for your return to be processed. If you selected Damaged, Defective or Other, you must state the nature of the damage or defect, or the reason for &quot;other&quot; in the space provided on the packing slip in order for us to properly process your return.</p>\r\n\r\n<ol>\r\n\t<li>\r\n\t<p>1. How to Use our Online Pre-Paid Return Label Service</p>\r\n\t&nbsp;\r\n\r\n\t<p>Rus offers a convenient online pre-paid shipping label service that allows you to enter in all of your required information online and print out a label in the convenience of your home! There is a nominal fee for this service that will be deducted from your return amount.</p>\r\n\r\n\t<p>Steps to create your label:</p>\r\n\r\n\t<ul>\r\n\t\t<li>Enter your Ship ID/Tracking number. You will be provided with a visual during the return label creation process that shows you where these numbers can be found.</li>\r\n\t\t<li>You will be prompted for specific return information as you proceed through the online return label creation. Please enter as much information as you can.</li>\r\n\t\t<li>Print out the pre-paid return label.</li>\r\n\t\t<li>Repackage items and include the packing slip in the package.</li>\r\n\t\t<li>Affix the printed label to your package and drop off your package at any USPS location or arrange for a pickup at www.usps.com.</li>\r\n\t</ul>\r\n\r\n\t<p>To complete a pre-paid online return label,&nbsp;please go to [ http://www.shipmentmanager.com/Portal.aspx?TargetPageID=19&amp;MerchantID=1734&nbsp;].</p>\r\n\r\n\t<p>To track your return after creating a pre-paid online return label,&nbsp;go to [&nbsp;http://www.shipmentmanager.com/Portal.aspx?TargetPageID=19&amp;MerchantID=1734 ].</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>2. How to Use Your Own Postage and Mail Back to our Returns Center</p>\r\n\t</li>\r\n</ol>\r\n\r\n<ol>\r\n\t<li>\r\n\t<p>If shipping on your own, please use a secure shipping method to send the item so that it can be tracked. For example, if you are sending it through the United States Postal Service, please request delivery confirmation. We are not responsible for items lost during shipping, and cannot process your return until the item is received.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Unless a different return address is specified on your packing slip, all returns should be sent to the following address:</p>\r\n\r\n\t<p>The Return Center<br />\r\n\t2829 Rohr Road<br />\r\n\tGroveport, OH 43125</p>\r\n\t</li>\r\n</ol>\r\n\r\n<p><em>Please take care in returning your items.</em>&nbsp;Any item received outside of our return policy will be returned without credit.</p>\r\n\r\n<p>Return an in-store purchase</p>\r\n\r\n<ul>\r\n\t<li>We will gladly accept returns made within 90 days of the purchase date for most items when accompanied by your in-store receipt.\r\n\t<ul>\r\n\t\t<li>Items must be returned, in new, or like-new condition, and in its original packaging, and with all paperwork including manuals, assembly instructions and your in-store receipt, as well as all accessories to ensure full credit.</li>\r\n\t\t<li>Toys&quot;R&quot;Us and Babies&quot;R&quot;Us reserve the right to refuse any returns if they do not meet our return requirements.</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p>Returns to stores with a store printed receipt:</p>\r\n\r\n<p>If original payment was made by: &nbsp; &nbsp;Refund will be given in:</p>\r\n\r\n<p>Cash.............................................Cash</p>\r\n\r\n<p>Charge Card..................................Credit to Charge Card</p>\r\n\r\n<p>Check, within the last 7 days...........Merchandise Credit</p>\r\n\r\n<p>Checks, after 7 days.......................Cash</p>\r\n\r\n<p>Merchandise Credit.........................Merchandise Credit</p>\r\n\r\n<p>Debit Card.....................................Cash</p>\r\n\r\n<p>Returns to stores with an online packing slip or gift receipt:</p>\r\n\r\n<ul>\r\n\t<li>If you are returning an item using a gift receipt or .com packing slip, your refund will be in the form of a merchandise credit</li>\r\n</ul>\r\n\r\n<p>&nbsp;Valid ID Required</p>\r\n\r\n<p>As we strive to offer a liberal and fair return policy for our customers, while preventing return fraud, we require you to present one of the following:</p>\r\n\r\n<ul>\r\n\t<li>Valid Driver&#39;s License</li>\r\n\t<li>State Identification from US, US Territories, Canada, or Mexico</li>\r\n\t<li>Military ID</li>\r\n\t<li>Passport</li>\r\n</ul>\r\n\r\n<p>The information from your ID will be retained in a database of return activity that Toys&quot;R&quot;Us and its affiliates use to authorize returns. For more information on this process, please go to [ https://www.theretailequation.com/Consumers/FAQ&nbsp;] for FAQs provided by our return authorization partner.</p>\r\n\r\n<p>&nbsp;Return an item off a Registry</p>\r\n\r\n<p><strong>MAKING A RETURN FROM YOUR REGISTRY</strong></p>\r\n\r\n<p><strong>When returning an item off of your registry, we will gladly accept returns up to 12 months from your event due date under the following conditions:</strong></p>\r\n\r\n<ul>\r\n\t<li>If you present an item for a return&nbsp;<strong>without a receipt</strong>&nbsp;and the item was part of your baby registry, it is returnable as long as&nbsp;<strong>both</strong>&nbsp;of the following conditions apply:\r\n\r\n\t<ol>\r\n\t\t<li>The baby registry is&nbsp;<strong>1 year old or less</strong>&nbsp;from the&nbsp;<strong>event date</strong>.</li>\r\n\t\t<li>The baby registry from which the item was purchased can be retrieved using the &quot;Registry Number&#39; or &quot;Registrant Name&quot; through our store&#39;s register.</li>\r\n\t</ol>\r\n\t</li>\r\n\t<li>Once your registry is confirmed as active, you will be asked to validate that you are the registered Guest. A driver&#39;s license or other valid form of ID is required. See acceptable forms of ID above.</li>\r\n\t<li>The return will be given in merchandise credit.</li>\r\n</ul>\r\n\r\n<p><strong>Returns to stores with an online packing slip or gift receipt:</strong></p>\r\n\r\n<ul>\r\n\t<li>If you are returning an item using a gift receipt or .com packing slip, your refund will be in the form of a merchandise credit</li>\r\n</ul>\r\n\r\n<p>Gift Returns</p>\r\n\r\n<ul>\r\n\t<li>If you are returning a gift to our online Returns Center, the purchaser will receive a refund issued in the&nbsp;<strong><em>original form of payment used to purchase the item</em></strong>&nbsp;for the price of the item and any applicable taxes.</li>\r\n\t<li>Gift Returns made at any of our Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store locations will receive a merchandise credit when accompanied by a gift receipt or online packing slip.</li>\r\n</ul>\r\n\r\n<p>Returns of Items Where Free Gift Card Was Received With Purchase</p>\r\n\r\n<p>If you received a free gift card or free merchandise with your purchase, the value of the free gift card or free merchandise will be deducted from your refund amount unless you return the free gift card unused or the free merchandise in resalable condition. If the free gift card or free merchandise came with the purchase of multiple qualifying items, your receipt will show the amount of each item attributable to the free gift card or free merchandise, and your return will be reduced by that amount unless you return the free gift card unused or the free merchandise in resalable condition. Similarly, if purchasing an item makes you eligible for a discount on other merchandise, the amount of the discount will be deducted from the return value of the item unless you return that other merchandise as well. For example:</p>\r\n\r\n<ul>\r\n\t<li>You purchase a bike for $100 and receive a free $10 gift card. If you return the bike, $10 will be deducted from the refund amount and your refund amount will be $90 unless you return the free gift card unused. If you do return the free gift card, your return value will be $100.</li>\r\n\t<li>You purchase a bike for $100 and receive a free bike helmet valued at $25. If you subsequently return the bike, $25 will be deducted from the refund amount and your refund will be $75 unless you return the bike helmet unused. If you do return the bike helmet unused, your return value will be $100.</li>\r\n\t<li>The offer is &quot;buy $100 worth of board games and receive a free $10 gift card.&quot; You buy 10 items for $10 each, totaling $100. If you return one of those items without the free gift card, the amount of your refund will be $9 unless you return the free gift card unused.</li>\r\n</ul>\r\n\r\n<p>If you purchase a bike for $100 and buy a bike basket for 50% off of a $10 regular retail price (such that you pay $5 for the bike basket) and you return the bike, your return amount will be $95 unless you also return the bike basket. If you return the bike basket, your return value will be $105.</p>\r\n\r\n<p>Store Pickup / Family &amp; Friends Pickup return policy (Buy Online, pick up in store)</p>\r\n\r\n<ul>\r\n\t<li>Store Pickup and Family &amp; Friends Pickup orders are subject to the same return policies as purchases made online or in stores.</li>\r\n\t<li>Store Pickup orders are considered to be an Online purchase however they may ONLY be returned to a Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store location for store merchandise credit\r\n\t<ul>\r\n\t\t<li>The Ready for pickup email is required for any store returns of merchandise made on your Store Pickup or Family &amp; Friends Pickup order</li>\r\n\t\t<li>Since you will not have a dated purchase receipt or pack slip, this&nbsp;<strong>&#39;Ready for Pickup&#39; email indicates that your order has been picked up and settled. This email serves as your receipt and will be needed for any/all returns of merchandise made on your Store Pickup order.</strong></li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p>Pay in Store Return Policy</p>\r\n\r\n<p>Orders paid for with the Pay in Store payment option can be returned at any Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store or our Online Returns Center.</p>\r\n\r\n<ul>\r\n\t<li>If returning in a Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store, you will be refunded using the method of payment used at the store when you paid for your order.</li>\r\n\t<li>If returning to our Online Return Center, you will receive credit back in the form of an eGift Card emailed to you within 24 hours of processing. This eGift Card may be exchanged in any Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store for a full refund issued using your original method of payment.</li>\r\n</ul>\r\n\r\n<p>Exceptions to 90-Day Policy</p>\r\n\r\n<p><em>Return Guidelines for Cameras, Camcorders, Digital Audible Players, Video Game Hardware, DVD Players and No Contract Cell Phones.</em></p>\r\n\r\n<p>We will accept returns of the following items within 30 days, from the date of purchase: Cameras; camcorders; digital audio players; video game hardware; DVD players; no-contract cell phones. The original in-store receipt or online packing slip is required and the item must be returned in its original package for a refund or exchange.</p>\r\n\r\n<p><em>Return Guidelines for Computer Hardware</em></p>\r\n\r\n<p>We will accept returns of the following items within 15 days, from the date of purchase: Computer hardware (eReaders, Netbooks, Tablets). The original in-store receipt or online packing slip is required and the item must be returned in its original package for a refund or exchange.</p>\r\n\r\n<p><em>Return Guidelines for Select Wheel and Outdoor Equipment/Items</em></p>\r\n\r\n<p>We will not accept returns on some opened items purchased from our pool, water slide and large item categories; these manufacturers are listed below.</p>\r\n\r\n<p>For the convenience of our guests, these manufacturers have set up toll-free customer service lines to handle all questions, problems and issues with defective merchandise.</p>\r\n\r\n<p>General Foam 800-813-0206</p>\r\n\r\n<p>Adventure Playsets (Backyard Discovery) 800-856-4445</p>\r\n\r\n<p>Intex 800-234-6839</p>\r\n\r\n<p>Swim &#39;N&#39; Play Inc. 866-844-8044</p>\r\n\r\n<p>Little Tikes 800-321-0183 (Please select option 1)</p>\r\n\r\n<p>Skywalker Holdings LLC 866-603-JUMP (5867)</p>\r\n\r\n<p>Manley 800-434-6178</p>\r\n\r\n<p>Sportspower LTD 877-552-6862</p>\r\n\r\n<p>Damaged or Defective Products</p>\r\n\r\n<p>To return a damaged or defective item, please contact our customer service team by phone. Our customer service team will provide you with a prepaid return label and shipping instructions. Once we receive the item and have validated the damage/defect, you will be refunded the price of the item as well as any applicable taxes and shipping costs. Refunds will be issued in the original form of payment used to purchase the item. Please note that in order to receive a refund for the shipping cost of the item, you must contact our customer service team before returning the item to us, and we must be able to validate the damage/defect.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Warranties</p>\r\n\r\n<p>Many of the products that are sold on the Toys&quot;R&quot;Us and Babies&quot;R&quot;Us website come with a manufacturer&#39;s warranty. For additional information on the manufacturer&#39;s warranty for a specific product, contact the manufacturer directly.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Toys&quot;R&quot;Us Recalled Product Return Policy</p>\r\n\r\n<p>When a product is recalled, we believe the most important thing is to get that product out of children&#39;s hands. We have a &quot;no quibble&quot; policy when it comes to recalls. This means Toys&quot;R&quot;Us and Babies&quot;R&quot;Us stores will take back recalled products sold at a Toys&quot;R&quot;Us or Babies&quot;R&quot;Us store or our e-commerce sites at any point during the recall period. No receipt or proof of purchase is necessary to return a recalled product to one of our stores. If you do not have a receipt, you will receive a store credit for the lowest sale price of the product within the last 30 days. There are some exceptions to this policy, so be sure to check with your local store for more details.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "add_to_cart": {
+        "2becffb97371559a482de7c58207b502": {
+          "original_url": "http://www.toysrus.com/product/index.jsp?productId=3565879",
+          "clean_url": "http://www.toysrus.com/product/index.jsp?productId=3565879",
+          "category_attributes": null,
+          "categories": [
+            "Everything Else"
+          ],
+          "status": "done",
+          "required_fields": {
+            "quantity": {
+              "data": [
+                {
+                  "input_type": "text",
+                  "input_name": "INPUT"
+                }
+              ]
+            }
+          },
+          "discounted_price": null,
+          "original_price": null,
+          "pickup_support": false,
+          "url": "http://www.toysrus.com/product/index.jsp?productId=3565879",
+          "required_field_values": {},
+          "required_field_names": [
+            "quantity"
+          ],
+          "weight": "408.2373219631679",
+          "site_categories": [
+            "Home",
+            "Feeding",
+            "Breastfeeding",
+            "Breastmilk Storage Bottles & Bags"
+          ],
+          "description": "Product Description The fully insulated 6 Bottle Cooler Bag by J.L. Childress is perfect for chilling and carrying a full day&apos;s supply of baby&apos;s feeding needs. The 6 Bottle Cooler Bag lining is leak-proof and PVC, lead and phthalate free. The lining pulls up for easy cleaning to prevent odors or mildew. This convenient tote holds up to 6 standard bottles or 3 bottles and a small cereal box. The top compartment holds food jars, utensils and bibs. Includes reusable ice pack to keep bottles and food cool and fresh.",
+          "alt_images": [
+            "https://px.twotap.com/unsafe/http%3A//www.toysrus.com/graphics/product_images/pTRU1-5927613dt.jpg",
+            "https://px.twotap.com/unsafe/http%3A//www.toysrus.com/graphics/product_images/pTRU1-5927613_alternate1_dt.jpg",
+            "https://px.twotap.com/unsafe/http%3A//www.toysrus.com/graphics/product_images/pTRU1-5927613_alternate2_dt.jpg",
+            "https://px.twotap.com/unsafe/http%3A//www.toysrus.com/graphics/product_images/pTRU1-5927613_alternate3_dt.jpg"
+          ],
+          "image": "https://px.twotap.com/unsafe/http%3A//www.toysrus.com/graphics/tru_prod_images/J.L.-Childress-6-Bottle-Cooler--pTRU1-5927613dt.jpg",
+          "price": "$19.99",
+          "title": "J.L. Childress 6 Bottle Cooler"
+        }
+      }
+    }
+  },
+  "user_id": null,
+  "unknown_urls": [],
+  "cart_id": "5851d2992546f9b908e5b694",
+  "country": "us",
+  "destination_country": "United States of America",
+  "stored_field_values": {},
+  "message": "done",
+  "description": "AddToCart has been completed."
+}
