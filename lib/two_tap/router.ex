@@ -4,8 +4,8 @@ defmodule TwoTap.Router do
   plug :match
   plug :dispatch
 
-  get "/purchase_status" do
-    TwoTap.Callbacks.update_purchase_status(conn)
-    |> send_resp(200, "confirm purchase?")
+  post "/confirm_purchase" do
+    TwoTap.Callbacks.confirm_purchase(conn)
+    |> send_resp(200, :ok)
   end
 end

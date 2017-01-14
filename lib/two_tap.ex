@@ -1,5 +1,6 @@
 defmodule TwoTap do
   use Application
+
   @two_tap_api Application.get_env(:two_tap, :two_tap_api)
 
   def start(_type, _args) do
@@ -26,6 +27,11 @@ defmodule TwoTap do
 
   def start_purchase(cart_id, purchase_data) do
     @two_tap_api.start_purchase(cart_id, purchase_data)
+    |> parse_response
+  end
+
+  def confirm_purchase(purchase_id) do
+    @two_tap_api.confirm_purchase(purchase_id)
     |> parse_response
   end
 

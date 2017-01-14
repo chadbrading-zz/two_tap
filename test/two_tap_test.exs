@@ -1,5 +1,6 @@
 defmodule TwoTapTest do
   use ExUnit.Case
+
   @cart_id "5851d2992546f9b908e5b694"
 
   test "create TwoTap cart" do
@@ -16,6 +17,11 @@ defmodule TwoTapTest do
   test "start TwoTap purchase" do
     purchase_data = %{"52265d0055a0f915c9000002" => %{ "noauthCheckout"=> %{ "email" => "shopper@gmail.com", "shipping_telephone" => "6503941234", "shipping_zip" => "94303", "shipping_state" => "California", "shipping_city" => "Palo Alto", "shipping_address" => "555 Palo Alto Avenue"}}}
     {:ok, response} = TwoTap.start_purchase(@cart_id, purchase_data)
+    assert %{"purchase_id" => _, "message" => _, "description" => _} = response
+  end
+
+  test "confirm purchase" do
+    {:ok, response} = TwoTap.confirm_purchase("50f414b9e6a4869bf6000010")
     assert %{"purchase_id" => _, "message" => _, "description" => _} = response
   end
 end
