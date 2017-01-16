@@ -8,4 +8,9 @@ defmodule TwoTap.Router do
     TwoTap.Callbacks.confirm_purchase(conn)
     |> send_resp(200, :ok)
   end
+
+  post "/update_purchase" do
+    TwoTap.Callbacks.update_purchase(conn)
+    |> send_resp(200, :ok)
+  end
 end
