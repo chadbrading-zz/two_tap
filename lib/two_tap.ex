@@ -7,11 +7,17 @@ defmodule TwoTap do
     import Supervisor.Spec, warn: :false
 
     children = [
-      Plug.Adapters.Cowboy.child_spec(:http, TwoTap.Router, [], [port: 4004])
+      Plug.Adapters.Cowboy.child_spec(:http, TwoTap.Router, [], [port: 4004]),
+      supervisor(TwoTap.CheckoutSupervisor, [])
     ]
 
     opts = [strategy: :one_for_one, name: TwoTap.Supervisor]
     Supervisor.start_link(children, opts)
+  end
+
+  def checkout(products, purchase_data) do
+    create_cart(products)
+    |> start_purchase(purchase_data)
   end
 
   def create_cart(products) do
@@ -25,7 +31,7 @@ defmodule TwoTap do
     |> parse_response
   end
 
-  def start_purchase(cart_id, purchase_data) do
+  def start_purchase({:ok, %{"cart_id" => cart_id}}, purchase_data) do
     @two_tap_api.start_purchase(cart_id, purchase_data)
     |> parse_response
   end
