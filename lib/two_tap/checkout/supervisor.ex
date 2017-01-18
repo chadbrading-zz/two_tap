@@ -5,8 +5,8 @@ defmodule TwoTap.CheckoutSupervisor do
     Supervisor.start_link(__MODULE__, [], name: __MODULE__)
   end
 
-  def start_child(data) do
-    Supervisor.start_child(__MODULE__, [data])
+  def start_child(channel, tag, redelivered, payload) do
+    Supervisor.start_child(__MODULE__, [channel, tag, redelivered, payload])
   end
 
   def init(_) do

@@ -8,6 +8,7 @@ defmodule TwoTap do
 
     children = [
       Plug.Adapters.Cowboy.child_spec(:http, TwoTap.Router, [], [port: 4004]),
+      worker(TwoTap.AMQPConsumer, []),
       supervisor(TwoTap.CheckoutSupervisor, [])
     ]
 

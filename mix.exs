@@ -11,7 +11,7 @@ defmodule TwoTap.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :cowboy, :plug, :httpoison],
+    [applications: [:logger, :cowboy, :plug, :httpoison, :amqp, :amqp_client],
      mod: {TwoTap, []}]
   end
 
@@ -20,7 +20,10 @@ defmodule TwoTap.Mixfile do
       {:cowboy, "~> 1.0.0"},
       {:plug, "~> 1.0"},
       {:httpoison, "~> 0.10.0"},
-      {:json, "~> 1.0"}
+      {:json, "~> 1.0"},
+      {:amqp, "0.1.4"},
+      {:amqp_client, git: "https://github.com/jbrisbin/amqp_client.git", override: true},
+      {:rabbit_common, github: "jbrisbin/rabbit_common", override: true}
     ]
   end
 end
