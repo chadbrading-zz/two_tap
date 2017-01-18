@@ -30,7 +30,7 @@ defmodule TwoTap do
     @two_tap_api.get_cart_status(cart_id)
   end
 
-  def start_purchase({:ok, %{"cart_id" => cart_id}}, purchase_data) do
+  def start_purchase(cart_id, purchase_data) do
     @two_tap_api.start_purchase(cart_id, purchase_data)
   end
 
