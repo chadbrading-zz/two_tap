@@ -1,8 +1,8 @@
 defmodule TwoTap.HTTPClient do
-  @public_token Application.get_env(:two_tap, :public_token)
-  @private_token Application.get_env(:two_tap, :private_token)
-  @confirm_purchase_callback Application.get_env(:two_tap, :confirm_purchase_callback)
-  @update_purchase_callback Application.get_env(:two_tap, :update_purchase_callback)
+  @public_token Application.fetch_env!(:two_tap, :public_token)
+  @private_token Application.fetch_env!(:two_tap, :private_token)
+  @confirm_purchase_callback Application.fetch_env!(:two_tap, :confirm_purchase_callback)
+  @update_purchase_callback Application.fetch_env!(:two_tap, :update_purchase_callback)
   @two_tap_url "https://api.twotap.com/v1.0"
 
   def request(method, endpoint, body, headers, opts \\ [], retries_left \\ 3) do

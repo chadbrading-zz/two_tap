@@ -1,7 +1,7 @@
 defmodule TwoTap do
   use Application
 
-  @two_tap_api Application.get_env(:two_tap, :two_tap_api)
+  @two_tap_api Application.fetch_env!(:two_tap, :two_tap_api)
 
   def start(_type, _args) do
     import Supervisor.Spec, warn: :false
