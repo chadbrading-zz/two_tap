@@ -28,7 +28,7 @@ defmodule TwoTap.CheckoutWorker do
   end
 
   def init([channel, tag, redelivered, payload]) do
-    {:ok, data} = JSON.decode(payload)
+    {:ok, data} = Poison.decode(payload)
     init([channel, tag, redelivered, data])
   end
 

@@ -20,7 +20,7 @@ defmodule TwoTap.Mixfile do
       {:cowboy, "~> 1.0.0"},
       {:plug, "~> 1.0"},
       {:httpoison, "~> 0.10.0"},
-      {:json, "~> 1.0"},
+      {:poison, "~> 3.0"},
       {:amqp, "0.1.4"},
       {:amqp_client, git: "https://github.com/jbrisbin/amqp_client.git", override: true},
       {:rabbit_common, github: "jbrisbin/rabbit_common", override: true}

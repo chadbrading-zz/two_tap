@@ -8,7 +8,7 @@ defmodule TwoTap.HTTPClient do
   def request(method, endpoint, body, headers, opts \\ [], retries_left \\ 3) do
     case HTTPoison.request(method, @two_tap_url <> endpoint, to_json(body), headers, opts) do
       {:ok, %HTTPoison.Response{body: body}} ->
-        JSON.decode(body)
+        Poison.decode(body)
       {:error, %HTTPoison.Error{reason: reason}} ->
         if retries_left > 0 do
           :timer.sleep(2000)
@@ -20,23 +20,23 @@ defmodule TwoTap.HTTPClient do
   end
 
   def create_cart(products) do
-    request(:post, "/cart", [products: products, public_token: @public_token, test_mode: "dummy_data"], [{"Content-Type", "application/json"}])
+    request(:post, "/cart", %{products: products, public_token: @public_token, test_mode: "dummy_data"}, [{"Content-Type", "application/json"}])
   end
 
   def get_cart_status(cart_id) do
-    request(:get, "/cart/status", [], [], [params: [public_token: @public_token, cart_id: cart_id, test_mode: "dummy_data"]])
+    request(:get, "/cart/status", [], [], %{params: %{public_token: @public_token, cart_id: cart_id, test_mode: "dummy_data"}})
   end
 
   def start_purchase(cart_id, purchase_data) do
-    request(:post, "/purchase", [cart_id: cart_id, fields_input: purchase_data, confirm: purchase_callbacks, test_mode: "dummy_data", public_token: @public_token], [{"Content-Type", "application/json"}])
+    request(:post, "/purchase", %{cart_id: cart_id, fields_input: purchase_data, confirm: purchase_callbacks, test_mode: "dummy_data", public_token: @public_token}, [{"Content-Type", "application/json"}])
   end
 
   def confirm_purchase(purchase_id) do
-    request(:post, "/purchase/confirm", [private_token: @private_token, purchase_id: purchase_id, test_mode: "fake_confirm"], [{"Content-Type", "application/json"}])
+    request(:post, "/purchase/confirm", %{private_token: @private_token, purchase_id: purchase_id, test_mode: "fake_confirm"}, [{"Content-Type", "application/json"}])
   end
 
   defp to_json(data) do
-    {:ok, json} = JSON.encode(data)
+    {:ok, json} = Poison.encode(data)
     json
   end
 
