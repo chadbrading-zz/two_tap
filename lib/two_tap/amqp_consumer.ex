@@ -1,6 +1,7 @@
 defmodule TwoTap.AMQPConsumer do
   use GenServer
   use AMQP
+  require Logger
 
   @exchange "test_exchange"
   @queue "test_queue"
@@ -27,6 +28,7 @@ defmodule TwoTap.AMQPConsumer do
   end
 
   def handle_info({:basic_deliver, payload, %{delivery_tag: tag, redelivered: redelivered}}, chan) do
+    Logger.info("purchase request received")
     TwoTap.CheckoutSupervisor.start_child(chan, tag, redelivered, payload)
     {:noreply, chan}
   end
