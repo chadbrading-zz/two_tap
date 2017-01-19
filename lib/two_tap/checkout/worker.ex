@@ -1,5 +1,6 @@
 defmodule TwoTap.CheckoutWorker do
   use GenServer
+  @amqp Application.fetch_env!(:two_tap, :amqp)
 
   def start_link(channel, tag, redelivered, payload) do
     GenServer.start_link(__MODULE__, [channel, tag, redelivered, payload])
@@ -10,16 +11,20 @@ defmodule TwoTap.CheckoutWorker do
     try do
       {:ok, %{"cart_id" => cart_id}} = TwoTap.create_cart(products)
       :ets.insert(:checkout_registry, {{:cart_id, cart_id}, self})
-      AMQP.Basic.ack channel, tag
+      @amqp.Basic.ack channel, tag
       {:ok, %{cart_id: cart_id, purchase_data: purchase_data}}
     rescue
       exception ->
-        AMQP.Basic.reject channel, tag, requeue: false
+        @amqp.Basic.reject channel, tag, requeue: false
         IO.puts "Error starting checkout"
         IO.puts "excpetion: "
         IO.inspect exception
         {:stop}
     end
+  end
+
+  def handle_call(:checkout_status, _from, checkout_state) do
+    {:reply, {:ok, checkout_state}, checkout_state}
   end
 
   def handle_cast(:start_purchase, %{cart_id: cart_id, purchase_data: purchase_data} = state) do
@@ -34,7 +39,7 @@ defmodule TwoTap.CheckoutWorker do
     {:noreply, state}
   end
 
-  # TODO: would need to inform the calling application of the final status
+  # may need to inform the calling application of the final status
   def handle_cast(:purchase_complete, %{purchase_id: purchase_id}) do
     :ets.delete(:checkout_registry, {:purchase_id, purchase_id})
     {:stop, :normal}
