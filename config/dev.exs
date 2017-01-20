@@ -9,4 +9,9 @@ config :two_tap, update_purchase_callback: "https://twotapclient.localtunnel.me/
 config :two_tap, two_tap_api: TwoTap.HTTPClient
 config :two_tap, amqp: AMQP
 
+config :two_tap, amqp_url: "amqp://guest:guest@localhost"
+config :two_tap, amqp_exchange: "dev_exchange"
+config :two_tap, amqp_queue: "dev_queue"
+config :two_tap, amqp_queue_error: "dev_queue_error"
+
 import_config "prod.secret.exs"

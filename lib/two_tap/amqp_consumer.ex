@@ -3,9 +3,10 @@ defmodule TwoTap.AMQPConsumer do
   use AMQP
   require Logger
 
-  @exchange "test_exchange"
-  @queue "test_queue"
-  @queue_error "test_queue_error"
+  @exchange Application.fetch_env!(:two_tap, :amqp_exchange)
+  @queue Application.fetch_env!(:two_tap, :amqp_queue)
+  @queue_error Application.fetch_env!(:two_tap, :amqp_queue_error)
+  @amqp_url Application.fetch_env!(:two_tap, :amqp_url)
 
   def start_link do
     GenServer.start_link(__MODULE__, [], [])
@@ -39,7 +40,7 @@ defmodule TwoTap.AMQPConsumer do
   end
 
   defp rabbitmq_connect do
-    case Connection.open("amqp://guest:guest@localhost") do
+    case Connection.open(@amqp_url) do
       {:ok, conn} ->
         Process.monitor(conn.pid)
         {:ok, chan} = Channel.open(conn)
