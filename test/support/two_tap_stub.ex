@@ -15,4 +15,9 @@ defmodule TwoTap.Stub do
   def confirm_purchase(_purchase_id) do
     Poison.decode("{\"description\":\"Still processing\",\"message\":\"still_processing\",\"purchase_id\":\"50f414b9e6a4869bf6000010\"}")
   end
+
+  def fetch_product_catalog(_) do
+    {:ok, json} = File.read("test/support/product_catalog.txt")
+    Poison.decode(json)
+  end
 end

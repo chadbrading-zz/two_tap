@@ -36,6 +36,10 @@ defmodule TwoTap.HTTPClient do
     request(:post, "/purchase/confirm", %{private_token: @private_token, purchase_id: purchase_id, test_mode: @test_mode}, [{"Content-Type", "application/json"}])
   end
 
+  def fetch_product_catalog(params) do
+    request(:post, "/product/scroll", Map.merge(%{public_token: @public_token}, params), [{"Content-Type", "application/json"}])
+  end
+
   defp to_json(data) do
     {:ok, json} = Poison.encode(data)
     json

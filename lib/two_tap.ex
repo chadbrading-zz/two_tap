@@ -37,4 +37,8 @@ defmodule TwoTap do
   def confirm_purchase(purchase_id) do
     @two_tap_api.confirm_purchase(purchase_id)
   end
+
+  def fetch_product_catalog(params) do
+    @two_tap_api.fetch_product_catalog(params)
+  end
 end

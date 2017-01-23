@@ -24,4 +24,10 @@ defmodule TwoTapTest do
     {:ok, response} = TwoTap.confirm_purchase("50f414b9e6a4869bf6000010")
     assert %{"purchase_id" => _, "message" => _, "description" => _} = response
   end
+
+  test "fetch product catalog" do
+    params = %{size: 10}
+    {:ok, response} = TwoTap.fetch_product_catalog(params)
+    assert %{"products" => _, "size" => 10, "scroll_id" => _, "total" => _, "message" => "done"} = response
+  end
 end
